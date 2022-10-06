@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.App {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: #282c34bf;
+}
+
+.slider {
+  width: 100%;
+  text-align: center;
+  height: 820px;
+}
+
+.logo {
+  margin-left: 30px;
+  margin-right: 70px;
+  color: rgb(115, 160, 211);
+}
+.desc {
+  font-size: 26px;
+  font-family: Libre Franklin, sans-serif;
+  justify-content: center;
+  align-items: center;
+  color: #282c34bf;
+  animation-name: example;
+  animation-duration: 2s;
+}
+@keyframes example {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+img {
+  height: 700px;
+  object-fit: scale-down;
+  float: left;
+}
+.imgg img {
+  object-fit: cover;
+  height: 300px;
+}
+.btnn {
+  height: 40px;
+
+  text-transform: uppercase;
+  width: 50%;
+  border-radius: 25px;
+  transition: 0.2s;
+}
+.itemTitle {
+  margin-top: 330px;
+  text-transform: uppercase;
+  width: 100%;
+  font-weight: 600;
+  color: #282c34bf;
+}
+
+.txt-footer {
+  margin-bottom: 0;
+}
+.footer {
+  text-align: center;
+  background-color: rgb(115, 160, 211);
+  height: 150px;
+  margin-bottom: 0%;
+}
+
+.icons {
+  padding: 20px;
+  margin: 20px;
+}
+.social-media {
+  color: #282c34bf;
+  margin-bottom: 20px;
+  font-size: 25px;
+  text-decoration: none;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.form-control {
+  height: 35px;
+  border: 2px solid rgb(115, 160, 211);
+  padding-left: 5px;
+  margin-bottom: 10px;
+  transition: 0.2s;
+}
+.form-control:hover {
+  border: 2px solid #282c34bf;
+}
+.carrd {
+  height: 200px;
+}
+.contact-form textarea {
+  height: 150px;
+  border: 1px solid rgb(115, 160, 211);
+  resize: none;
+  padding-left: 5px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+.contact-form textarea:hover {
+  border: 2px solid #282c34bf;
+}
+.det {
+  justify-content: center;
+}
+.btn22 {
+  border: 1px solid rgb(115, 160, 211);
+  height: 40px;
+  font-size: 14px;
+  color: #fff;
+  background: rgb(115, 160, 211);
+  text-transform: uppercase;
+  width: 50%;
+  justify-content: center;
+  border-radius: 25px;
+}
+.nav2 {
+  color: black !important;
+}
+.btn22:hover {
+  font-size: 16px;
+  border: 0;
+}
